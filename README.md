@@ -44,3 +44,12 @@ Right hand: Advanced symbols (x, y, ∫, d/dx, Σ)
 ✋ Open palm: Show solution
 
 🛠️ System Architecture
+
+graph LR
+A[Camera Input] --> B(MediaPipe Gesture Detection)
+B --> C{Is Equation Complete?}
+C -->|Yes| D[SymPy Solving]
+D --> E[Stable Diffusion Visualization]
+E --> F[GAN Refinement]
+F --> G[Display Solution]
+
