@@ -28,6 +28,8 @@ This project combines:
 ```bash
 pip install -r requirements.txt  # Installs:
 # mediapipe, sympy, opencv-python, torch, diffusers
+```
+
 🚀 Usage
 Run the main script:
 
