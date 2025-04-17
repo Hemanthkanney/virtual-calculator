@@ -34,8 +34,7 @@ pip install -r requirements.txt  # Installs:
 Run the main script:
 
 python
-Copy
-python gesture_math_solver.py
+```python gesture_math_solver.py```
 Gesture Commands:
 
 Left hand: Numbers (0-9) and basic operations (+, -, ×, ÷)
